@@ -5,7 +5,7 @@ import Directs from "./DIrects";
 const Dashboard = (props: { children: ReactNode }) => {
   return (
     <>
-      <div className="w-screen h-screen flex-row flex">
+      <div className="w-[100%] h-[100%] flex-row flex">
         <Sidebar />
         <Directs />
         {props.children}
